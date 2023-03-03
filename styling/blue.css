@@ -1,0 +1,54 @@
+body {
+    background-color: #3A4663;
+}
+
+#buttonBox {
+    position: absolute;
+    width: 540px;
+    height: 480px;
+    background-color: #242D44;
+}
+
+#inputScreen {
+    position: absolute;
+    width: 540px;
+    height: 128px;
+    background-color: #181F33;
+    color: #FFFFFF;
+}
+
+.numsOperats {
+    position: absolute;
+    width: 101px;
+    height: 64px;
+    background-color: #EAE3DC;
+    color: #434A59;
+}
+
+.bigButton {
+    position: absolute;
+    width: 227px;
+    height: 64px;
+    color: #FFFFFF;
+}
+
+#equals {
+    background-color: #D03F2F;
+}
+
+#reset {
+    background-color: #647198;
+}
+
+#del {
+    background-color: #647198;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
