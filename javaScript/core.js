@@ -1,9 +1,8 @@
 function numberButtons(e) {
-    let clicked = e.target;
-    let screenAdd = clicked.textContent;
+    let screenAdd = e.target.textContent;
     let screenOut = document.getElementById("screen");
 
-    if (screenOut.textContent==="0") {
+    if (screenOut.textContent === "0") {
         screenOut.innerHTML = screenOut.innerHTML.replace(0, screenAdd);
     }
     else {
@@ -20,11 +19,19 @@ function decimalButton(e) {
 
 function deleteButton() {
     let screenOut = document.getElementById("screen");
-    let screenText = screenOut.textContent
+    let screenText = screenOut.textContent;
 
-    if (screenText.charAt(screenText.length-1)===".") {
+    if (screenText.charAt(screenText.length - 1) === ".") {
         document.getElementById("period").disabled = false;
     }
-    
+
     screenOut.innerHTML = screenText.slice(0, -1);
+}
+
+function resetButton() {
+    let screenOut = document.getElementById("screen");
+
+
+
+    screenOut.innerHTML = "0"
 }

@@ -41,12 +41,12 @@
         <button class="numsOperats" id="seven" onclick="numberButtons(event)">7</button>
         <button class="numsOperats" id="eight" onclick="numberButtons(event)">8</button>
         <button class="numsOperats" id="nine" onclick="numberButtons(event)">9</button>
-        <button class="numsOperats" id="plus">+</button>
-        <button class="numsOperats" id="subtr">-</button>
-        <button class="numsOperats" id="multiply">&times;</button>
-        <button class="numsOperats" id="divide">/</button>
-        <button class="bigButton" id="reset">RESET</button>
-        <button class="bigButton" id="equals">=</button>
+        <button class="numsOperats" id="plus" onclick="addButton()">+</button>
+        <button class="numsOperats" id="subtr" onclick="subtractButton()">-</button>
+        <button class="numsOperats" id="multiply" onclick="multiplyButton()">&times;</button>
+        <button class="numsOperats" id="divide" onclick="divideButton()">/</button>
+        <button class="bigButton" id="reset" onclick="resetButton()">RESET</button>
+        <button class="bigButton" id="equals" onclick="equalButton()">=</button>
         <button class="numsOperats" id="del" onclick="deleteButton()">DEL</button>
       </section>
     </section>
@@ -58,5 +58,5 @@
     Coded by <a href="#">Chris Partee</a>.
   </div>
 </body>
-<script src=".\javaScript\core.js"></script>
+<script src=".\javaScript\execution.js"></script>
 </html>
