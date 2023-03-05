@@ -1,206 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 body {
     background-color: #3A4663;
     color: #FFFFFF;
-    display: grid;
-    grid-template-columns: auto 540px auto;
-    grid-template-rows: auto 708px auto;
 }
-
-main {
-    grid-column: 2;
-    grid-row: 2;
-    display: grid;
-    grid-template-rows: 44px 32px 632px;
-}
-
-#topper {
-    grid-row: 1;
-}
-
-#topper>h3 {
-    display: inline-block;
-}
-
-#topper>div {
-    display: inline-block;
-}
-
-#totCalculator {
-    grid-row: 3;
-    display: grid;
-    grid-template-rows: 128px 24px 480px;
-
-}
-
 #buttonBox {
-    display: grid;
-    width: 540px;
-    height: 480px;
     background-color: #242D44;
-    font-size: 40rem;
-    border-radius: 10px;
-    grid-row: 3;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "seven eight nine del"
-                        "four five six plus"
-                        "one two three subtr"
-                        "period zero0 divide multiplication"
-                        "reset reset equal equal";
     box-shadow: #979797;
-    padding: 32px;
-    box-sizing: border-box;
-                         
 }
 
 #inputScreen {
-    width: 540px;
-    height: 128px;
     background-color: #181F33;
     color: #FFFFFF;
-    grid-row: 1;
-    border-radius: 10px;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 52px;
-    text-align: right;
-    letter-spacing: -0.933333px;
-    padding: 32px;
-    box-sizing: border-box;
 }
-
-#screen {
-    height: 52px;
-    margin: 0;
-}
-
 .numsOperats {
-    width: 101px;
-    height: 64px;
     background-color: #EAE3DC;
     color: #434A59;
-    align-self: center;
-    justify-self: center;
-    border-radius: 10px;
     box-shadow: inset 0px -4px 0px #B3A497;
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-size: 40px;
-    line-height: 37px;
-    border: .1px;  
 }
 
 .bigButton {
-    width: 227px;
-    height: 64px;
     color: #FFFFFF;
-    align-self: center;
-    justify-self: center;
-    border-radius: 10px;
-    
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-size: 28px;
-    line-height: 26px;
-    border: .1px;  
 }
 
 
 
 #equals {
     background-color: #D03F2F;
-    grid-area: equal;
     box-shadow: inset 0px -4px 0px #93261A;
 }
 
 #reset {
     background-color: #647198;
-    grid-area: reset;
     box-shadow: inset 0px -4px 0px #414E73;
-    letter-spacing: -0.466667px;
 }
 
 #del {
     background-color: #647198;
     color: #FFFFFF;
-    grid-area: del;
     box-shadow: inset 0px -4px 0px #414E73;
-    font-size: 28px;
-    line-height: 26px;
-    letter-spacing: -0.466667px;
 }
-
-#seven {
-    grid-area: seven;
-}
-
-#eight {
-    grid-area: eight;
-}
-
-#nine {
-    grid-area: nine;
-}
-
-#four {
-    grid-area: four;
-}
-
-#five {
-    grid-area: five;
-}
-
-#six {
-    grid-area: six;
-}
-
-#plus {
-    grid-area: plus;
-}
-
-#one {
-    grid-area: one;
-}
-
-#two {
-    grid-area: two;
-}
-
-#subtract {
-    grid-area: subtr;
-}
-
-#three {
-    grid-area: three;
-}
-
-#period {
-    grid-area: period;
-}
-
-#zero0 {
-    grid-area: zero0;
-}
-
-#divide {
-    grid-area: divide;
-}
-
-#multiply {
-    grid-area: multiplication;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    grid-row: 3;
-    grid-column: 2;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }

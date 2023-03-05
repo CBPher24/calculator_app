@@ -1,9 +1,3 @@
-// import {additionExec as sum} from "./operators.js";
-// import {subtractionExec as difference} from "./operators.js";
-// import {multiplicationExec as product} from "./operators.js";
-// import {divisionExec as quotient} from "./operators.js";
-
-let n = 0;
 class basicMath {
     constructor() {
         this.inputNumber = null,
