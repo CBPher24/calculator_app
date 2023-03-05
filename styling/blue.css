@@ -64,6 +64,20 @@ main {
     color: #FFFFFF;
     grid-row: 1;
     border-radius: 10px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 52px;
+    text-align: right;
+    letter-spacing: -0.933333px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+#screen {
+    height: 52px;
+    margin: 0;
 }
 
 .numsOperats {
@@ -101,6 +115,8 @@ main {
     line-height: 26px;
     border: .1px;  
 }
+
+
 
 #equals {
     background-color: #D03F2F;
