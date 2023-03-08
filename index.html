@@ -21,11 +21,11 @@
     <header id="topper">
       <h3>calc</h3>
       
-        <p id="radioName">theme</p>
+        <p id="radioName">THEME</p>
         <aside id="themeSelector">
           <input type="radio" id="blue" name="themes" value="blue" checked>
           <label for="blue">1</label>
-          <input type="radio" id="white" name="themes" value="white">
+          <input type="radio" id="white" name="themes"value="white">
           <label for="white">2</label>
           <input type="radio" id="purple" name="themes" value="purple">
           <label for="purple">3</label>
@@ -66,4 +66,14 @@
   </div>
 </body>
 <script src=".\javaScript\execution.js"></script>
+<script>const blueT = document.getElementById("blue");
+  const whiteT = document.getElementById("white");
+  const purpleT = document.getElementById("purple");
+  const target = document.querySelectorAll("link")[2];
+  
+  blueT.addEventListener("click",blueThemeChange)
+  whiteT.addEventListener("click",whiteThemeChange)
+  purpleT.addEventListener("click",purpleThemeChange)
+  </script>
+  <script src=".\javaScript\themes.js"></script>
 </html>

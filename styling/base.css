@@ -17,6 +17,7 @@ main {
     grid-row: 1;
     display: grid;
     grid-template-columns: repeat(8, 12.5%);
+    height: 44px;
 }
 
 #topper>h3 {
@@ -36,21 +37,37 @@ main {
     grid-column: 6;
     box-sizing: content-box;
     align-self: right;
-    justify-self: baseline;
+    justify-self: right;
     font-family: 'League Spartan';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 11px;
-    text-align: center;
+    /* line-height: 11px; */
+    text-align: right;
     letter-spacing: 1px;
-    
+    padding-top: 28px;
 }
 
 #themeSelector {
     grid-column: 7/ span 2;
     align-self: center;
     justify-self: center;
+    border-radius: 13px;
+    /* width: 71px; */
+    /* height: 26px; */
+}
+
+[id="blue"],[id="white"],[id="purple"] {
+    position: relative;
+    left: 5px;
+    width: 16px;
+    /* appearance: none; */
+}
+
+label {
+    position: relative;
+    top: -20px;
+    right: 12px;
 }
 
 #totCalculator {
