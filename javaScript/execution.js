@@ -34,15 +34,12 @@ class basicMath {
 const computation = new basicMath();
 
 function addButton() {
-    console.log(computation);
     let saveNumber = parseFloat(document.getElementById("screen").textContent);
 
     if (computation.inputNumber === null) {
-        console.log("starting")
         computation.inputNumber = saveNumber;
     }
     else {
-        console.log("adding")
         switch (computation.execOper) {
             case '+':
                 computation.inputNumber += saveNumber;
@@ -59,22 +56,18 @@ function addButton() {
             default:
                 break;
         }
-        console.log(computation)
     }
     computation.addit();
     endings(saveNumber)
 }
 
 function subtractButton() {
-    console.log(computation);
     let saveNumber = parseFloat(document.getElementById("screen").textContent);
 
     if (computation.inputNumber === null) {
-        console.log("starting")
         computation.inputNumber = saveNumber;
     }
     else {
-        console.log("subtracting")
         switch (computation.execOper) {
             case '+':
                 computation.inputNumber += saveNumber;
@@ -91,22 +84,18 @@ function subtractButton() {
             default:
                 break;
         }
-        console.log(computation)
     }
     computation.subtraction();
     endings(saveNumber)
 }
 
 function multiplyButton() {
-    console.log(computation);
     let saveNumber = parseFloat(document.getElementById("screen").textContent);
 
     if (computation.inputNumber === null) {
-        console.log("starting")
         computation.inputNumber = saveNumber;
     }
     else {
-        console.log("multiplying")
         switch (computation.execOper) {
             case '+':
                 computation.inputNumber += saveNumber;
@@ -123,22 +112,18 @@ function multiplyButton() {
             default:
                 break;
         }
-        console.log(computation)
     }
     computation.multiplic();
     endings(saveNumber)
 }
 
 function divideButton() {
-    console.log(computation);
     let saveNumber = parseFloat(document.getElementById("screen").textContent);
 
     if (computation.inputNumber === null) {
-        console.log("starting")
         computation.inputNumber = saveNumber;
     }
     else {
-        console.log("dividing")
         switch (computation.execOper) {
             case '+':
                 computation.inputNumber += saveNumber;

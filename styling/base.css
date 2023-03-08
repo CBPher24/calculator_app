@@ -42,7 +42,6 @@ main {
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    /* line-height: 11px; */
     text-align: right;
     letter-spacing: 1px;
     padding-top: 28px;
@@ -53,15 +52,12 @@ main {
     align-self: center;
     justify-self: center;
     border-radius: 13px;
-    /* width: 71px; */
-    /* height: 26px; */
 }
 
 [id="blue"],[id="white"],[id="purple"] {
     position: relative;
     left: 5px;
     width: 16px;
-    /* appearance: none; */
 }
 
 label {
@@ -74,7 +70,6 @@ label {
     grid-row: 3;
     display: grid;
     grid-template-rows: 128px 24px 480px;
-
 }
 
 #buttonBox {
@@ -158,8 +153,6 @@ label {
     line-height: 26px;
     border: .1px;  
 }
-
-
 
 #equals {
     grid-area: equal;
