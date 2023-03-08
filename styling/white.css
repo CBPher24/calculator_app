@@ -1,34 +1,34 @@
 
 body {
     background-color: #E6E6E6;
-    color: #FFFFFF;
+    color: #36362C;
 }
 
 #themeSelector {
-    background: #242D44;
+    background: #D2CDCD;
 }
 
 [id="blue"],[id="white"],[id="purple"] {
-    accent-color: #D03F2F;
+    accent-color: #C85402;
 }
 
 #buttonBox {
-    background-color: #242D44;
+    background-color: #D2CDCD;
     box-shadow: #979797;
 }
 
 #inputScreen {
-    background-color: #181F33;
-    color: #FFFFFF;
+    background-color: #EEEEEE;
+    color: #36362C;
 }
 .numsOperats {
-    background-color: #EAE3DC;
-    color: #434A59;
-    box-shadow: inset 0px -4px 0px #B3A497;
+    background-color: #E5E4E1;
+    color: #36362C;
+    box-shadow: inset 0px -4px 0px #A79E91;
 }
 
 .numsOperats:hover {
-    background-color: #FFFFFE;
+    background-color: #FFFFFF;
 }
 
 .bigButton {
@@ -36,29 +36,29 @@ body {
 }
 
 #equals {
-    background-color: #D03F2F;
-    box-shadow: inset 0px -4px 0px #93261A;
+    background-color: #C85402;
+    box-shadow: inset 0px -4px 0px #873901;
 }
 
 #equals:hover {
-    background-color: #F96B5B;
+    background-color: #FF8A38;
 }
 
 #reset {
-    background-color: #647198;
-    box-shadow: inset 0px -4px 0px #414E73;
+    background-color: #378187;
+    box-shadow: inset 0px -4px 0px #1B6066;
 }
 
 #reset:hover {
-    background-color: #A2B2E1;
+    background-color: #62B5BC;
 }
 
 #del {
-    background-color: #647198;
+    background-color: #378187;
     color: #FFFFFF;
-    box-shadow: inset 0px -4px 0px #414E73;
+    box-shadow: inset 0px -4px 0px #1B6066;
 }
 
 #del:hover {
-    background-color: #A2B2E1;
+    background-color: #62B5BC;
 }
