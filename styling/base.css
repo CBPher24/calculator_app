@@ -15,14 +15,42 @@ main {
 
 #topper {
     grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
 }
 
 #topper>h3 {
-    display: inline-block;
+    grid-column: 1;
+    align-self: left;
+    justify-self: baseline;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.533333px;
 }
 
-#topper>div {
-    display: inline-block;
+#radioName {
+    grid-column: 6;
+    box-sizing: content-box;
+    align-self: right;
+    justify-self: baseline;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+#themeSelector {
+    grid-column: 7/ span 2;
+    align-self: center;
+    justify-self: center;
 }
 
 #totCalculator {
