@@ -100,7 +100,29 @@ label {
     width: 540px;
     height: 128px;
     grid-row: 1;
+    display: grid;
+    grid-template-rows: 15px auto;
     border-radius: 10px;
+    
+    box-sizing: border-box;
+}
+
+#previousInput {
+    grid-row: 1;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: left;
+    letter-spacing: -0.933333px;
+    margin-left: 15px
+}
+
+#screen {
+    grid-row: 2;
+    height: 52px;
+    margin: 0;
     font-family: 'League Spartan';
     font-style: normal;
     font-weight: 700;
@@ -109,12 +131,6 @@ label {
     text-align: right;
     letter-spacing: -0.933333px;
     padding: 32px;
-    box-sizing: border-box;
-}
-
-#screen {
-    height: 52px;
-    margin: 0;
 }
 
 .numsOperats {

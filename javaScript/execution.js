@@ -62,7 +62,7 @@ function addButton() {
         console.log(computation)
     }
     computation.addit();
-    endings()
+    endings(saveNumber)
 }
 
 function subtractButton() {
@@ -94,7 +94,7 @@ function subtractButton() {
         console.log(computation)
     }
     computation.subtraction();
-    endings()
+    endings(saveNumber)
 }
 
 function multiplyButton() {
@@ -126,7 +126,7 @@ function multiplyButton() {
         console.log(computation)
     }
     computation.multiplic();
-    endings()
+    endings(saveNumber)
 }
 
 function divideButton() {
@@ -158,7 +158,7 @@ function divideButton() {
         console.log(computation)
     }
     computation.divis();
-    endings()
+    endings(saveNumber)
 }
 
 function equalButton() {
@@ -180,8 +180,8 @@ function equalButton() {
         default:
             break;
     }
-
-    endings()
+    computation.execOper = ""
+    endings(saveNumber)
 }
 
 function numberButtons(e) {
@@ -222,11 +222,13 @@ function resetButton() {
 
     screenOut.innerHTML = "0"
     document.getElementById("period").disabled = false;
+    document.getElementById("previousInput").innerHTML = "";
 }
 
-function endings() {
+function endings(s) {
     computation.newNumber = true;
     roundNumber = parseFloat(computation.inputNumber.toFixed(2));
     document.getElementById("screen").innerHTML = roundNumber.toLocaleString();
     document.getElementById("period").disabled = false;
+    document.getElementById("previousInput").innerHTML += `${s} ${computation.execOper}`
 }
