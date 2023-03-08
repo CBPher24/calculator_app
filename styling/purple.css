@@ -1,64 +1,65 @@
 
 body {
     background-color: #17062A;
-    color: #FFFFFF;
+    color: #FFE53D;
 }
 
 #themeSelector {
-    background: #242D44;
+    background: #1E0936;
 }
 
 [id="blue"],[id="white"],[id="purple"] {
-    accent-color: #D03F2F;
+    accent-color: #00DED0;
 }
 
 #buttonBox {
-    background-color: #242D44;
+    background-color: #1E0936;
     box-shadow: #979797;
 }
 
 #inputScreen {
-    background-color: #181F33;
-    color: #FFFFFF;
+    background-color: #1E0936;
+    color: #FFE53D;
 }
 .numsOperats {
-    background-color: #EAE3DC;
-    color: #434A59;
-    box-shadow: inset 0px -4px 0px #B3A497;
+    background-color: #331C4D;
+    color: #FFE53D;
+    box-shadow: inset 0px -4px 0px #881C9E;
 }
 
 .numsOperats:hover {
-    background-color: #FFFFFE;
+    background-color: #6C34AC;
 }
 
 .bigButton {
-    color: #FFFFFF;
+    color: #1A2327;
 }
 
 #equals {
-    background-color: #D03F2F;
-    box-shadow: inset 0px -4px 0px #93261A;
+    background-color: #00DED0;
+    box-shadow: inset 0px -4px 0px #6CF9F1;
 }
 
 #equals:hover {
-    background-color: #F96B5B;
+    background-color: #93FFF8;
 }
 
 #reset {
-    background-color: #647198;
-    box-shadow: inset 0px -4px 0px #414E73;
+    background-color: #56077C;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+    color: #FFFFFF
 }
 
 #reset:hover {
-    background-color: #A2B2E1;
+    background-color: #8631AF;
 }
 
 #del {
-    background-color: #647198;
+    background-color: #56077C;
     color: #FFFFFF;
-    box-shadow: inset 0px -4px 0px #414E73;
+    box-shadow: inset 0px -4px 0px #BE15F4;
 }
 
 #del:hover {
-    background-color: #A2B2E1;
+    background-color: #8631AF;
 }
